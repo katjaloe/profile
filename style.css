@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card {
+  width: 80%;
+  background-color: #fffbf5;
+  padding: 40px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgb(146, 144, 144);
+}
+
+body {
+  background-color: #e9e8e8;
+  font-family: "Open Sans", "sans-serif";
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", "sans-serif";
+  color: #20262e;
+  font-weight: 900;
+}
+
+h3 {
+  color: #913175;
+  padding: 15px 0 0 0;
+}
+
+p {
+  margin: 15px 0 40px 0;
+}
+
+.social_links {
+  margin: 20px auto;
+  color: #20262e;
+}
+
+.social_links:hover {
+  color: #913175;
+}
+
+.button_links {
+  color: #913175;
+  padding: 15px;
+  border: 1px solid #913175;
+  border-radius: 4px;
+  background-color: #e9e8e8;
+
+}
+
+.button_links:hover {
+  background-color: #f5edce;
+  border: 2px solid #913175;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.profile_picture {
+  border-radius: 50%;
+  width: 100px;
+}
